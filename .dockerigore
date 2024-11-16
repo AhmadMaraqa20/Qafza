@@ -1,0 +1,16 @@
+.venv
+
+3.txt
+summary.docx
+Dockerfile
+
+test_Images/*
+
+# Ignore system files
+*.pyc
+__pycache__
+*.log
+
+models/
+
+!models/currencymodel.pt

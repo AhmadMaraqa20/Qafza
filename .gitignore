@@ -1,0 +1,11 @@
+.venv
+
+3.txt
+summary.docx
+
+
+
+# Ignore system files
+*.pyc
+__pycache__
+*.log
