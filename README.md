@@ -30,9 +30,9 @@ Once pulled, you can run the container using:
 docker run -d -p 8000:8000 ahmadmaraqa/fastapi-currency-app:latest
 ```
 This will start the API on port 8000, and you can access it at http://localhost:8000.
-To view the image tags and more details on DockerHub, visit the DockerHub Repository.
-
-
+```markdown
+[DockerHub Repository](https://hub.docker.com/repository/docker/ahmadmaraqa/fastapi-currency-app/tags)
+```
 
 ### Local Setup
 
