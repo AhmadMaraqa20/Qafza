@@ -12,4 +12,4 @@ This project is an object detection API for Jordanian currency. It is built usin
 - `requirements.txt`: Python dependencies.
 - `Dockerfile`: Docker configuration for the app.
 - `test_Images/`: Sample images for testing.
-- `models/`: Contains the YOLO model file (not included in this repo).
+- `models/`: Contains the YOLO model file.
