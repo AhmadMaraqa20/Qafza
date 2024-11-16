@@ -13,3 +13,19 @@ This project is an object detection API for Jordanian currency. It is built usin
 - `Dockerfile`: Docker configuration for the app.
 - `test_Images/`: Sample images for testing.
 - `models/`: Contains the YOLO model file.
+
+
+## How to Use
+
+### DockerHub
+
+You can pull the pre-built Docker image from DockerHub and run it directly. 
+
+To pull the latest image:
+```bash
+docker pull ahmadmaraqa/fastapi-currency-app:latest
+```
+Once pulled, you can run the container using:
+```bash
+docker run -d -p 8000:8000 ahmadmaraqa/fastapi-currency-app:latest
+```
