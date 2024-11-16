@@ -29,3 +29,30 @@ Once pulled, you can run the container using:
 ```bash
 docker run -d -p 8000:8000 ahmadmaraqa/fastapi-currency-app:latest
 ```
+This will start the API on port 8000, and you can access it at http://localhost:8000.
+
+
+### Local Setup
+
+Clone the repository:
+```bash
+git clone https://github.com/AhmadMaraqa20/Qafza.git
+```
+Navigate to the project directory:
+```bash
+cd Qafza
+```
+Install the required dependencies:
+```bash
+pip install -r requirements.txt
+```
+Run the FastAPI application:
+```bash
+uvicorn fastApiPY:app --reload
+```
+The application will be accessible at http://localhost:8000.
+
+
+
+
+
